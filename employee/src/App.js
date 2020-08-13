@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
+import Jumbotron from "./components/Jumbotron/jumbotron.js";
 
 function App() {
   return (
     <div>
-      <h1> Hello World</h1>
+      <Jumbotron />
     </div>
   );
 }
