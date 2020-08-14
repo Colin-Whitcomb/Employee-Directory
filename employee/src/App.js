@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div>
         <Jumbotron />
-        <div>
+      
           <TableWrapper>
             <TableHeader/>
 
@@ -31,7 +31,7 @@ class App extends Component {
             ))}
           
           </TableWrapper>
-          </div>
+        
       </div>
 
     );

@@ -5,7 +5,7 @@ import React from 'react';
 function tableHeader(props) {
     return (
 
-  <thead className="tableHead thead-dark ">
+  <thead className="tableHead thead-dark">
     <tr>
       <th scope="col-sm-2">ID#</th>
       <th scope="col-sm-2">Profile Picture</th>
