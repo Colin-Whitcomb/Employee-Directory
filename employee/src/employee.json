@@ -2,61 +2,85 @@
     {
         "id": 1,
         "name": "Aang",
-        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/efa024c7-04d4-42fd-bbbf-0041fe846265/d277isg-ef0fae03-5fd6-4677-8922-276c4ac515d1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWZhMDI0YzctMDRkNC00MmZkLWJiYmYtMDA0MWZlODQ2MjY1XC9kMjc3aXNnLWVmMGZhZTAzLTVmZDYtNDY3Ny04OTIyLTI3NmM0YWM1MTVkMS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.tqISf-_Z_xsCJ5_V5TWBZPBNwa675CTL84KKIjHCuuo"
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/efa024c7-04d4-42fd-bbbf-0041fe846265/d277isg-ef0fae03-5fd6-4677-8922-276c4ac515d1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWZhMDI0YzctMDRkNC00MmZkLWJiYmYtMDA0MWZlODQ2MjY1XC9kMjc3aXNnLWVmMGZhZTAzLTVmZDYtNDY3Ny04OTIyLTI3NmM0YWM1MTVkMS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.tqISf-_Z_xsCJ5_V5TWBZPBNwa675CTL84KKIjHCuuo",
+        "email": "airbendersOnly@aol.com",
+        "phone": "(218)-316-2655"
     },
     {
         "id": 2,
         "name": "Toph",
-        "image": "https://images.squarespace-cdn.com/content/v1/5031788c24ac2660dcea339c/1398228738331-UMFEHPLP7PQSDEQ9D0PW/ke17ZwdGBToddI8pDm48kJ6IJCuegf0Jc301TkSDDzhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyZC6UZLFfDtXLrsgnL5GxSXgHvyoYB6Ddd7yZRP77r76KHkHzIU-9E-mcrvis-6AI/image-asset.png"
+        "image": "https://images.squarespace-cdn.com/content/v1/5031788c24ac2660dcea339c/1398228738331-UMFEHPLP7PQSDEQ9D0PW/ke17ZwdGBToddI8pDm48kJ6IJCuegf0Jc301TkSDDzhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyZC6UZLFfDtXLrsgnL5GxSXgHvyoYB6Ddd7yZRP77r76KHkHzIU-9E-mcrvis-6AI/image-asset.png",
+        "email": "flyingBoar@aol.com",
+        "phone": "(478-488-3724)"
     },
     {
         "id": 3,
         "name": "Katara",
-        "image": "https://pbs.twimg.com/media/EY5Ht-YUcAAGxZi.jpg"
+        "image": "https://pbs.twimg.com/media/EY5Ht-YUcAAGxZi.jpg",
+        "email": "soMuchHope@aol.com",
+        "phone": "(775)-338-0991"
     },
     {
         "id": 4,
         "name": "Zuko",
-        "image": "https://i.pinimg.com/originals/12/4d/fb/124dfb9709719b9f36508fee6ee1379f.jpg"
+        "image": "https://i.pinimg.com/originals/12/4d/fb/124dfb9709719b9f36508fee6ee1379f.jpg",
+        "email": "thatsRoughBuddy@aol.com",
+        "phone": "(212)-572-0559"
     },
     {
         "id": 5,
         "name": "Sokka",
-        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mv5bntc2yte0nwqtmda5zi00nwm4ltg4otatmzvlnzfkownlode5xkeyxkfqcgdeqxvymjgyoti4mgatat-v1-1589918106.jpg?crop=0.7627118644067796xw:1xh;center,top&resize=480:*"
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mv5bntc2yte0nwqtmda5zi00nwm4ltg4otatmzvlnzfkownlode5xkeyxkfqcgdeqxvymjgyoti4mgatat-v1-1589918106.jpg?crop=0.7627118644067796xw:1xh;center,top&resize=480:*",
+        "email": "flyingKick-A-Pow!@aol.com",
+        "phone": "(620) 454-1799"
     },
     {
         "id": 6,
         "name": "Azula",
-        "image": "https://vignette.wikia.nocookie.net/avatar/images/4/42/Azula_hanging_from_a_cliff.png/revision/latest/scale-to-width-down/340?cb=20121225195159"
+        "image": "https://vignette.wikia.nocookie.net/avatar/images/4/42/Azula_hanging_from_a_cliff.png/revision/latest/scale-to-width-down/340?cb=20121225195159",
+        "email": "theWorldIsMine@aol.com",
+        "phone": "(995) 565-4039"
     },
     {
         "id": 7,
         "name": "Mai",
-        "image": "https://vignette.wikia.nocookie.net/avatar/images/d/d9/Mai_ready_to_attack.png/revision/latest?cb=20090326221510"
+        "image": "https://vignette.wikia.nocookie.net/avatar/images/d/d9/Mai_ready_to_attack.png/revision/latest?cb=20090326221510",
+        "email": "lessThanFear@aol.com",
+        "phone": "(519) 978-4733"
     },
     {
         "id": 8,
         "name": "Ty Lee",
-        "image": "https://vignette.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png/revision/latest?cb=20140905083814"
+        "image": "https://vignette.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png/revision/latest?cb=20140905083814",
+        "email": "bendyBod@aol.com",
+        "phone": "(966) 291-5045"
     },
     {
         "id": 9,
         "name": "Oppa",
-        "image": "https://pbs.twimg.com/media/ENJvzvlWkAAS7Ac.png"
+        "image": "https://pbs.twimg.com/media/ENJvzvlWkAAS7Ac.png",
+        "email": "rawr@aol.com",
+        "phone": "(514) 531-8471"
     },
     {
         "id": 10,
         "name": "Momo",
-        "image": "https://pbs.twimg.com/media/D1Cqzu1WkAA4cKw.jpg"
+        "image": "https://pbs.twimg.com/media/D1Cqzu1WkAA4cKw.jpg",
+        "email": "cactusJuice@always.com",
+        "phone": "(266) 855-0710"
     },
     {
         "id": 11,
         "name": "Suki",
-        "image": "https://i.pinimg.com/originals/9b/ec/9c/9bec9ce8311bd059a23c84d3e051eb88.jpg"
+        "image": "https://i.pinimg.com/originals/9b/ec/9c/9bec9ce8311bd059a23c84d3e051eb88.jpg",
+        "email": "kyoshiWarrior1@aol.com",
+        "phone": "(675) 844-7400"
     },
     {
         "id": 12,
         "name": "Iroh",
-        "image": "https://vignette.wikia.nocookie.net/avatar/images/f/f0/Iroh%27s_lotus_tile.png/revision/latest/scale-to-width-down/340?cb=20140112225732"
+        "image": "https://vignette.wikia.nocookie.net/avatar/images/f/f0/Iroh%27s_lotus_tile.png/revision/latest/scale-to-width-down/340?cb=20140112225732",
+        "email": "jasminDragonOfTheWest@aol.com",
+        "phone": "(711) 265-9193"
     }
 ]
