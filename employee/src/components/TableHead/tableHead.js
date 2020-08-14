@@ -9,8 +9,8 @@ function tableHeader(props) {
     <tr>
       <th scope="col-sm-2">ID#</th>
       <th scope="col-sm-2">Profile Picture</th>
-      <th scope="col-sm-2">Name</th>
-      <th scope="col-sm-2">Email</th>
+      <th scope="col-sm-2">Name<button type="button" class="btn btn-dark" id="nameBtn"><i class="material-icons">arrow_downward</i></button></th>
+      <th scope="col-sm-2">Email<button type="button" class="btn btn-dark" id="emailBtn"><i class="material-icons">arrow_downward</i></button></th>
       <th scope="col-sm-2">Phone</th>
     </tr>
   </thead>

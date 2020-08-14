@@ -3,7 +3,7 @@ import './style.css'
 
 function tableWrapper (props) {
     return (
-        <table className="table">{props.children}</table>   
+        <table className="table table-bordered">{props.children}</table>   
     )
 }
 
