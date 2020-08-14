@@ -2,9 +2,7 @@ import React from 'react';
 
 function tableWrapper (props) {
     return (
-        
-        <div class="table">{props.children}</div>
-       
+        <table className="table">{props.children}</table>   
     )
 }
 
