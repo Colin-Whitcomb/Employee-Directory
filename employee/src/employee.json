@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "name": "Gregor",
+        "firstName": "Gregor",
         "lastName": "Compton",
         "image": "https://randomuser.me/api/portraits/men/19.jpg",
         "email": "Greg_C@gmail.com",
