@@ -6,7 +6,8 @@ function tableBody(props) {
     <tbody className="tableBody">
 
     <tr>
-    <img alt={props.name} src={props.image} id={props.id} className='profilePictures'/>
+      <td>{props.id}</td>
+    <img alt={props.name} src={props.image} id={props.id} className='profilePictures img-container'/>
       <td>{props.name}</td>
       <td>Otto</td>
       <td>@mdo</td>
