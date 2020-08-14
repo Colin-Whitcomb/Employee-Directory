@@ -22,7 +22,8 @@ class App extends Component {
 
             {this.state.Employees.map(employee => (
             <TableBody
-            name={employee.name}
+            firstName={employee.firstName}
+            lastName={employee.lastName}
             image={employee.image}
             id={employee.id}
             email={employee.email}
