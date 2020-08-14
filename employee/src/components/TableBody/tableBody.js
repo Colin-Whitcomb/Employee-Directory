@@ -1,11 +1,12 @@
 import React from 'react';
+import './style.css'
 
 function tableBody(props) {
     return (
     <tbody className="tableBody">
 
     <tr>
-      <th scope="row">1</th>
+    <img alt={props.name} src={props.image} id={props.id} className='profilePictures'/>
       <td>{props.name}</td>
       <td>Otto</td>
       <td>@mdo</td>
