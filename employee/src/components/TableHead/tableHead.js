@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 function tableHeader(props) {
     return (
 
@@ -12,16 +11,16 @@ function tableHeader(props) {
 
       <th scope="col-sm-2">First Name
 
-      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortFirstName(props)}>
+      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.firstNameClicked()}>
       <i className="material-icons">
-        import_export
+      swap_vert
       </i></button></th>
 
       <th scope="col-sm-2">Last Name
-
-      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortLastName(props)}>
+      
+      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.lastNameClicked()}>
       <i className="material-icons">
-      import_export
+      swap_vert
       </i></button></th>
       
       <th scope="col-sm-2">Email</th>
@@ -30,5 +29,4 @@ function tableHeader(props) {
   </thead>
     )
 }
-
 export default tableHeader;
