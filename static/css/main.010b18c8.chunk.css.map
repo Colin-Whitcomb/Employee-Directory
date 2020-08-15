@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,OACE,iBACF,CAFA,iBACI,cAAe,CACf,eACJ","file":"main.010b18c8.chunk.css","sourcesContent":[".profilePictures {\n    max-width: 20vh;\n    max-height: 17vh;\n}"]}
