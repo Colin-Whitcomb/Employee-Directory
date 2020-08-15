@@ -12,17 +12,21 @@ class App extends Component {
   state = {
     // Employees: Employees,
     employees: employees,
-    // firstNameCheck: true,
+    firstNameCheck: true,
     lastNameCheck: false
   }
 
-//  ------------------ First Name Functions ------------------ //
+  //  ------------------ First Name Functions ------------------ //
   // Check which sort item was clicked
   firstNameClicked(upDownCheck) {
     console.log("firstNameClicked!");
     console.log(upDownCheck);
     if (upDownCheck) {
-        this.sortFirstName(employees);
+      var sortedEmployees = this.sortFirstName(employees);
+      this.setState({
+        employees: sortedEmployees,
+        firstName: false
+      })
        } else { 
          this.sortFirstNameBackwards(employees)
        }
@@ -31,7 +35,7 @@ class App extends Component {
 
   // Sorts First Name A-Z
   sortFirstName(Arr) {
-    Arr.sort((a,b) => {
+    Arr.sort(function(a,b) {
       let fa = a.firstName.toLowerCase(),
           fb = b.firstName.toLowerCase();
           if (fa < fb) {
@@ -41,10 +45,10 @@ class App extends Component {
             return 1;
           }
           return 0;
-    })
-    employees.forEach((e) => {
-      console.log(`${e.id} ${e.firstName} ${e.lastName}`);
-    })
+    });
+    // employees.forEach((e) => {
+    //   console.log(`${e.id} ${e.firstName} ${e.lastName}`);
+    // })
   }
 
   // Sorts First Name Z-A
@@ -70,10 +74,9 @@ class App extends Component {
   lastNameClicked(upDownCheck) {
     console.log("lastNameClicked!");
     console.log(upDownCheck);
-    if (upDownCheck === true) {
+    if (upDownCheck) {
         this.sortLastName(employees);
-       } 
-    if (upDownCheck === false) { 
+       } else { 
          this.sortLastNameBackwards(employees)
        }
     } 
@@ -116,21 +119,22 @@ class App extends Component {
 
 
   render() {
-//     console.log(employees);
-//     employees.sort((a,b) => {
-//       let fa = a.lastName.toLowerCase(),
-//       fb = b.lastName.toLowerCase();
-//       if (fb < fa) {
-//         return -1;
-//       }
-//       if (fb > fa) {
-//         return 1;
-//       }
-//       return 0;
-// })
-    //  employees.forEach((e) => {
-    //    console.log(`${e.id} ${e.firstName} ${e.lastName}`);
-    //  })
+    console.log(employees);
+    employees.sort((a,b) => {
+      let fa = a.lastName.toLowerCase(),
+      fb = b.lastName.toLowerCase();
+      console.log("fa: " +fa);
+      if (fb < fa) {
+        return -1;
+      }
+      if (fb > fa) {
+        return 1;
+      }
+      return 0;
+})
+     employees.forEach((e) => {
+       console.log(`${e.id} ${e.firstName} ${e.lastName}`);
+     })
     return (
       <div>
         <Jumbotron />

@@ -12,16 +12,16 @@ function tableHeader(props) {
 
       <th scope="col-sm-2">First Name
 
-      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortFirstName(props.firstNameCheck)}>
+      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortFirstName(props)}>
       <i className="material-icons">
-      swap_vert
+        import_export
       </i></button></th>
 
       <th scope="col-sm-2">Last Name
 
-      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortLastName(props.lastNameCheck)}>
+      <button type="button" className="btn btn-dark" id="nameBtn" onClick={() => props.sortLastName(props)}>
       <i className="material-icons">
-      swap_vert
+      import_export
       </i></button></th>
       
       <th scope="col-sm-2">Email</th>
