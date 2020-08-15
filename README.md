@@ -5,9 +5,9 @@
 <p align="center">
  Final Product Preview
  </p>
-<p align="center">
+<!-- <p align="center">
     <img src="https://media.giphy.com/media/chcbsTArg4B6ZUSpoY/giphy.gif" width="420" />
-</p>
+</p> -->
   
 ## Summary & Process
 For this assignment, our objective was to create an employee directory app that can perform basic sorting functions. Using these functions, we can sort the employees by first or last name, from A-Z or Z-A.
